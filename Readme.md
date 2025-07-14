@@ -116,7 +116,7 @@ docker-compose --version
 
 1. **Клонувати репозиторій:**
 ```bash
-git clone <repository-url>
+git clone https://github.com/StruchkovaAnastasiia777/goit-cs-hw-02.git
 cd goit-cs-hw-02
 ```
 
@@ -208,3 +208,4 @@ sed -i 's/localhost/db/' conf/db.py
 ```bash
 # Замініть psycopg2 на psycopg2-binary в requirements.txt
 sed -i 's/psycopg2==/psycopg2-binary==/' requirements.txt
+```
